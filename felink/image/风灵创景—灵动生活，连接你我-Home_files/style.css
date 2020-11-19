@@ -1,0 +1,2490 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+/*@import url(//fonts.googleapis.com/css?family=Raleway:400,300,500,600,800,700);*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Montserrat:400,700|Questrial&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);*/
+@import "../google--felink-font.css";
+/*@import "../animate.css";*/
+
+/*========================================================
+                      Main Styles
+=========================================================*/
+body {
+    color: #777777;
+    font: 500 13px/25px "Raleway", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+.badge {
+    background: none;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .clearboth {
+        clear: both;
+    }
+}
+
+.fz17 {
+    font-size: 17px;
+}
+
+.fa {
+    line-height: inherit;
+}
+
+[class*='fa-']:before {
+    font-weight: 400;
+    font-family: 'FontAwesome';
+    color: inherit;
+    font-size: 20px;
+}
+
+.clr-primary {
+    color: #38a99c;
+}
+
+.clr-secondary {
+    color: #1c1c1c;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .ins767 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+/*=======================================================
+                       Main Layout
+=========================================================*/
+* + .row {
+    margin-top: 35px;
+}
+
+.row + * {
+    margin-top: 40px;
+}
+
+.row + .row {
+    margin-top: 30px;
+}
+
+* + .offs {
+    margin-top: 59px;
+}
+
+h3 + img {
+    margin-top: 60px;
+}
+
+h3 + img + h4 {
+    margin-top: 28px;
+}
+
+h4 + p {
+    margin-top: 5px;
+}
+
+h3 + h4 {
+    margin-top: 48px;
+}
+
+.list-2 + p {
+    margin-top: 16px;
+}
+
+h3 + blockquote {
+    margin-top: 58px;
+}
+
+* + .btn-wr {
+    margin-top: 45px;
+}
+
+* + .btn-wr__mod {
+    margin-top: 40px;
+}
+
+* + table {
+    margin-top: 19px;
+}
+
+* + .offs2 {
+    margin-top: 50px;
+}
+
+.row + .offs2 {
+    margin-top: 45px;
+}
+
+h3 + p {
+    margin-top: 50px;
+}
+
+/*=======================================================
+                        Components
+=========================================================*/
+/*==================   Block-icon     ===================*/
+.block-icon .block_caption {
+    display: inline-block;
+    width: 270px;
+    margin-top: -5px;
+}
+
+.block-icon .block_caption span {
+    font-size: 17px;
+    display: inline-block;
+}
+
+.block-icon .block_caption * + p {
+    margin-top: 8px;
+}
+
+@media (max-width: 1199px) {
+    .block-icon .block_caption {
+        margin-top: 30px;
+    }
+}
+
+.block-icon .icon {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 270px;
+    height: 270px;
+    line-height: 270px;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    position: relative;
+}
+
+.block-icon .icon span {
+    position: absolute;
+    top: 161px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 29px;
+    line-height: 33px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.block-icon .icon .fa {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 28px;
+}
+
+.block-icon .icon .fa:before {
+    display: inline-block;
+    font: 400 130px/139px 'FontAwesome';
+    color: #fff;
+}
+
+.block-icon .icon1 {
+    background: #4884f2;
+}
+
+.block-icon .icon2 {
+    background: #d24f4f;
+}
+
+.block-icon__skin {
+    position: relative;
+    padding-left: 103px;
+}
+
+.block-icon__skin .icon {
+    position: absolute;
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    line-height: 84px;
+    left: 0px;
+    top: 12px;
+    text-align: center;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.block-icon__skin .icon .fa:before {
+    font: 400 36px/84px 'FontAwesome';
+    color: #fff;
+}
+
+.block-icon__skin .bg1 {
+    background: #43d2e3;
+}
+
+.block-icon__skin .bg2 {
+    background: #47cd3d;
+}
+
+.block-icon__skin .bg3 {
+    background: #e31836;
+}
+
+.block-icon__skin + .block-icon__skin {
+    margin-top: 20px;
+}
+
+h3 + .block-icon__skin {
+    margin-top: 51px;
+}
+
+/*==================     Table       ====================*/
+table {
+    background: #1c1c1c;
+    color: #fff;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    table {
+        margin: 20px auto;
+    }
+}
+
+table th + th {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+table th {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 0px 7px;
+}
+
+table td,
+table th {
+    width: 15.7894%;
+    text-align: center;
+}
+
+table .lg {
+    width: 51%;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 38px;
+}
+
+table td {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+table td a.fa {
+    color: #fff;
+}
+
+table td a.fa:before {
+    font-size: 13px;
+}
+
+table td a.fa:hover {
+    color: #e31836;
+}
+
+table td a.fa + a.fa {
+    margin-left: -3px;
+}
+
+table td a.act {
+    color: #e31836;
+}
+
+table .pd-add {
+    padding: 23px 0px 5px;
+}
+
+table .bg1 {
+    background: #e31836;
+}
+
+table .bg2 {
+    background: #745d93;
+}
+
+table .bg3 {
+    background: #37bcb4;
+}
+
+table .bg4 {
+    background: #e76f00;
+}
+
+table .bg5 {
+    background: #43d2e3;
+}
+
+@media only screen and (max-width: 767px) {
+    table {
+        display: none;
+    }
+}
+
+.stacktable.small-only {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .stacktable.small-only {
+        display: block;
+    }
+
+    .stacktable.small-only tbody {
+        width: 100%;
+    }
+
+    .stacktable.small-only td,
+    .stacktable.small-only th {
+        width: 25%;
+        text-align: center;
+    }
+}
+
+/*==================     Panels      ====================*/
+.panels {
+    background: #f3f3f3;
+}
+
+.panels .inline-list {
+    float: left;
+    margin-bottom: 16px;
+}
+
+.panels .btn-wr-header {
+    float: right;
+    margin-top: -43px;
+}
+
+.panels .btn-wr-header a + a {
+    margin-left: 6px;
+}
+
+@media (max-width: 767px) {
+    .panels {
+        text-align: center;
+    }
+
+    .panels .inline-list,
+    .panels .btn-wr-header {
+        float: none;
+    }
+
+    .panels .inline-list {
+        margin-top: 20px;
+    }
+
+    .panels .btn-wr-header {
+        margin-bottom: 20px;
+    }
+}
+
+/*==================  Banner  ====================*/
+.cont-wr {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.banner .cnt {
+    color: #fff;
+}
+
+.banner .cnt p {
+    font-size: 110px;
+    line-height: 139px;
+}
+
+.banner .cnt * + h2 {
+    margin-top: 9px;
+}
+
+@media (max-width: 479px) {
+    .banner .cnt p {
+        font-size: 80px;
+        line-height: 100px;
+    }
+}
+
+.banner__mod {
+    top: 12%;
+}
+
+/*==================      Box      ======================*/
+.box:before,
+.box:after {
+    content: " ";
+    display: table;
+}
+
+.box:after {
+    clear: both;
+}
+
+.box:before,
+.box:after {
+    content: " ";
+    display: table;
+}
+
+.box:after {
+    clear: both;
+}
+
+.box_aside {
+    /*float: left;*/
+    /*margin-right: 30px;*/
+}
+
+.box_aside_two {
+    /*float: left;*/
+    /*margin-right: 30px;*/
+}
+
+.box_aside a {
+    /*float: left;*/
+    /*margin-right: 30px;*/
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑,sans-serif;
+
+}
+
+.box_aside_two a {
+    /*float: left;*/
+    /*margin-right: 30px;*/
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑,sans-serif;
+
+}
+
+.box_aside_two a span {
+
+    font-size: 24px;
+    color: #333333;
+    line-height: 30px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+
+}
+
+.box_cnt {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.box_cnt a {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.box_cnt a:hover {
+    color: #38a99c;
+}
+
+.box_cnt .badge {
+    display: inline-block;
+    color: #888888;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 0px;
+    margin-top: 2px;
+}
+
+.box_cnt__no-flow {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .box_aside_two,
+    .box_aside {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .box_cnt {
+        text-align: center;
+    }
+}
+
+.box__mod. box_aside_two,
+.box__mod .box_aside {
+    width: 270px;
+}
+
+@media (max-width: 767px) {
+    .box__mod. box_aside_two,
+    .box__mod .box_aside {
+        margin: 0 auto;
+    }
+}
+
+/*==================  404    ======================*/
+.p404 h2 {
+    font-size: 215px;
+    font-weight: 800;
+    line-height: 160px;
+}
+
+.p404 h2 small {
+    font-size: 160px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+
+.p404 h3 {
+    font-size: 54px;
+    line-height: 54px;
+    color: #d73f0f;
+}
+
+.p404 .mg-add {
+    margin-top: 40px;
+}
+
+.p404 * + p {
+    margin-top: 26px;
+}
+
+@media (max-width: 991px) {
+    .p404 h2 {
+        font-size: 100px;
+        line-height: 120px;
+    }
+
+    .p404 h2 small {
+        font-size: 80px;
+        margin-top: 20px;
+    }
+}
+
+/*==================  Stuck menu  ======================*/
+.stuck_container {
+    padding: 0px 0 1px;
+}
+
+.isStuck {
+    padding: 0;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0 1px 2px #bbb;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.isStuck .navbar-brand {
+    font-size: 44px;
+}
+
+.isStuck .navbar-brand:before {
+    top: 0px;
+}
+
+.isStuck .navbar-nav {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .isStuck {
+        display: none !important;
+    }
+}
+
+.isStuck .sf-menu ul {
+    top: 27px;
+}
+
+.isStuck .sf-menu ul ul {
+    top: 0;
+}
+
+/*==================     ToTop     ======================*/
+.toTop {
+    width: 47px;
+    height: 47px;
+    font-size: 24px;
+    line-height: 47px !important;
+    font-weight: 700;
+    color: #fff !important;
+    background: #3c79e7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: fixed;
+    right: 66px;
+    bottom: 180px;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+}
+
+.toTop:hover {
+    color: #fff;
+    background: #1c1c1c;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 1399px) {
+    .toTop {
+        display: none !important;
+    }
+}
+
+/*==================   Tumbnail    ======================*/
+.thumb {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+    -moz-transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+
+.thumb_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    color: #ffffff;
+    background: transparent;
+}
+
+.thumb_overlay:before {
+    content: '\f065';
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.lt-ie9 .thumb_overlay:before {
+    display: none;
+}
+
+.thumb:hover .thumb_overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lt-ie9 .thumb:hover .thumb_overlay {
+    background: none;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff000000');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff000000', endColorstr='#ff000000');
+    zoom: 1;
+}
+
+.thumb:hover .thumb_overlay:before {
+    opacity: 1;
+}
+
+.lt-ie9 .thumb:hover .thumb_overlay:before {
+    display: block;
+}
+
+.thumb:hover img {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*==================  RD Parallax    ======================*/
+.parallax {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.parallax_image,
+.parallax_pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-position: center center;
+    will-change: transform;
+    z-index: 0;
+}
+
+.parallax_image {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.parallax_pattern {
+    background-repeat: repeat;
+}
+
+.parallax_cnt {
+    position: relative;
+    color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 119px;
+}
+
+.parallax_cnt * + h2 {
+    margin-top: 9px;
+}
+
+.parallax_cnt * + h4 {
+    margin-top: 23px;
+}
+
+.parallax_cnt * + .btn {
+    margin-top: 31px;
+}
+
+.parallax a.link {
+    text-decoration: underline;
+}
+
+.parallax2 .parallax_cnt {
+    padding-top: 147px;
+    padding-bottom: 150px;
+}
+
+@media (max-width: 767px) {
+    .parallax2 .parallax_cnt {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.parallax3 .parallax_cnt {
+    padding-top: 75px;
+    padding-bottom: 64px;
+}
+
+.parallax3 .parallax_cnt .search-form {
+    margin-top: 0;
+}
+
+/*==================   RD Mobile Menu    =====================*/
+.rd-mobilemenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9999999;
+    text-align: left;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.rd-mobilemenu.active {
+    right: 0;
+}
+
+.rd-mobilemenu_ul {
+    position: fixed;
+    top: -56px;
+    left: 0;
+    bottom: -56px;
+    width: 240px;
+    padding: 132px 0 76px;
+    color: #a5bfd2;
+    background: rgba(43, 54, 67, 0.97);
+    font-size: 14px;
+    line-height: 20px;
+    overflow: auto;
+    -moz-box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-transform: translateX(-240px);
+    -ms-transform: translateX(-240px);
+    -o-transform: translateX(-240px);
+    -webkit-transform: translateX(-240px);
+    transform: translateX(-240px);
+    -moz-transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    -moz-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.lt-ie9 .rd-mobilemenu_ul {
+    background: none;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b3643', endColorstr='#ff2b3643');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b3643', endColorstr='#ff2b3643');
+    zoom: 1;
+}
+
+.rd-mobilemenu.active .rd-mobilemenu_ul {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.rd-mobilemenu_ul a {
+    display: block;
+    padding: 14px 25px 16px;
+}
+
+.rd-mobilemenu_ul a.active {
+    background: #313e4e;
+    color: #ffffff;
+}
+
+.rd-mobilemenu_ul a:hover {
+    background: #38a99c;
+    color: #ffffff;
+}
+
+.rd-mobilemenu_ul a .rd-submenu-toggle {
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    margin-top: -17.5px;
+    width: 32px;
+    height: 32px;
+    font: 400 10px 'FontAwesome';
+    line-height: 32px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -moz-transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.rd-mobilemenu_ul a .rd-submenu-toggle:after {
+    content: '\f078';
+}
+
+.rd-mobilemenu_ul a .rd-submenu-toggle:hover {
+    background: #2b3643;
+    color: #a5bfd2;
+}
+
+.rd-mobilemenu_ul a.rd-with-ul {
+    position: relative;
+}
+
+.rd-mobilemenu_ul a.rd-with-ul.active .rd-submenu-toggle {
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rd-mobilemenu_ul ul a {
+    padding-left: 40px;
+    border: none;
+    padding-top: 14px;
+    padding-bottom: 16px;
+}
+
+.rd-mobilemenu_ul ul ul {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.rd-mobilemenu_ul ul ul li {
+    border: none;
+    box-shadow: none;
+}
+
+.rd-mobilemenu_ul ul ul a {
+    padding-left: 60px;
+    color: inherit;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    border: none;
+    box-shadow: none;
+}
+
+.rd-mobilemenu_ul ul ul a.active {
+    background: #313e4e;
+    color: #ffffff;
+}
+
+.rd-mobilemenu_ul ul ul a:hover {
+    background: #38a99c;
+    color: #ffffff;
+}
+
+.rd-mobilemenu_ul:after {
+    content: '';
+    display: block;
+    height: 20px;
+}
+
+.rd-mobilepanel {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background: #2b3643;
+    color: #ffffff;
+    -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 99999991;
+}
+
+/*.rd-mobilepanel:before{*/
+/*content: url(../images/mobile/genius-sm-logo.png);*/
+/*}*/
+.rd-mobilepanel_title {
+    position: fixed;
+    padding-left: 10px;
+    top: 4px;
+    left: 56px;
+    right: 56px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 48px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rd-mobilepanel_toggle {
+    position: fixed;
+    top: 4px;
+    left: 8px;
+    width: 48px;
+    height: 48px;
+    background-color: #252e3a;
+    border-color: transparent;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.rd-mobilepanel_toggle span {
+    position: relative;
+    display: block;
+    margin: auto;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.rd-mobilepanel_toggle span:after,
+.rd-mobilepanel_toggle span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -8px;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.rd-mobilepanel_toggle span:after {
+    top: 8px;
+}
+
+.rd-mobilepanel_toggle span:after,
+.rd-mobilepanel_toggle span:before,
+.rd-mobilepanel_toggle span {
+    width: 24px;
+    height: 4px;
+    background-color: #ffffff;
+    backface-visibility: hidden;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.rd-mobilepanel_toggle span:before,
+.rd-mobilepanel_toggle span:after {
+    -webkit-transition-duration: 0.3s, 0.3s;
+    transition-duration: 0.3s, 0.3s;
+    -webkit-transition-delay: 0.3s, 0s;
+    transition-delay: 0.3s, 0s;
+    -webkit-transition-property: top, -webkit-transform;
+    transition-property: top, transform;
+}
+
+.rd-mobilepanel_toggle.active span {
+    transition: background .3s 0s ease;
+    background: transparent;
+}
+
+.rd-mobilepanel_toggle.active span:before,
+.rd-mobilepanel_toggle.active span:after {
+    top: 0;
+    -webkit-transition-delay: 0s, 0.3s;
+    transition-delay: 0s, 0.3s;
+}
+
+.rd-mobilepanel_toggle.active span:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.rd-mobilepanel_toggle.active span:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.rd-mobilemenu_logo {
+    width: 83px;
+    height: 17px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+    top: 20px;
+    right: 12px;
+    position: relative;
+    /*background-image: url(../../images/mobile/Felink-logo.png);*/
+}
+
+.language-head {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-top: 55px;
+    }
+
+    .rd-mobilemenu,
+    .rd-mobilepanel {
+        display: block;
+    }
+}
+
+@media (max-width: 359px) {
+    .rd-mobilepanel_title {
+        font-size: 18px;
+    }
+}
+
+/*=================       Tabs     ======================*/
+.resp-tabs-list {
+    text-align: center;
+}
+
+.resp-tabs-list li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 17px;
+    padding-bottom: 4px;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.resp-tabs-list li:hover {
+    border-bottom: 4px solid #1c1c1c;
+}
+
+.resp-tabs-list li + li {
+    margin-left: 23px;
+}
+
+.resp-tabs-list .resp-tab-active {
+    border-bottom: 4px solid #1c1c1c;
+}
+
+* + .resp-tabs-container {
+    margin-top: 27px;
+}
+
+.resp-accordion {
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .resp-tabs-container {
+        text-align: center;
+    }
+
+    .resp-accordion {
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        padding: 5px 0px 5px;
+        background: #38a99c;
+        -moz-transition: 0.3s all ease;
+        -webkit-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+        transition: 0.3s all ease;
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .resp-accordion:hover {
+        background: #d73f0f;
+    }
+
+    .resp-tabs-list {
+        display: none;
+    }
+}
+
+/*========================================================
+                     HEADER  Section
+=========================================================*/
+header {
+    background: #ffffff;
+}
+
+@media (max-width: 991px) {
+    header {
+        text-align: center;
+    }
+
+    header .navbar-header,
+    header .navbar-nav {
+        float: none;
+    }
+}
+
+main {
+    background: #ffffff;
+}
+
+footer {
+    padding-top: 38px;
+    padding-bottom: 20px;
+    background: #1c1c1c;
+}
+
+footer .navbar-brand {
+    padding-bottom: 23px;
+    color: #fff;
+    font-size: 50px;
+}
+
+footer .navbar-brand:before {
+    top: -6px;
+}
+
+footer .navbar-brand .brand-slogan {
+    margin-top: 0;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background: #333333;
+}
+
+footer * + ul {
+    margin-top: 10px;
+}
+
+footer ul li {
+    line-height: 35px;
+}
+
+footer .fb-plug-wr {
+    min-height: 244px;
+}
+
+footer .copyright {
+    padding-top: 10px;
+    font-size: 11px;
+}
+
+.footer .recordcode i {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 6px;
+    background: url(../../images/icon-police.png) 0 0 no-repeat;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+@media (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+}
+
+/*========================================================
+                     MEDIA QUERIES
+=========================================================*/
+@media (min-width: 1220px) {
+    .container {
+        padding: 0;
+    }
+
+    .index-content {
+        padding: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .row .col-xs-6 {
+        clear: both;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .row .col-xs-12 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .row .col-sm-12 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .row .col-sm-6 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row .col-xs-4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row .col-xs-3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/*==========================================================*/
+/*2016/1/19*/
+/*luweineng*/
+/*==========================================================*/
+
+.item .img-slide {
+    height: 817px;
+    width: 100%;
+}
+
+.item .img-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner-box {
+    height: 753px;
+}
+
+.banner-box-xt,
+.banner-box-sp,
+.banner-box-tq,
+.banner-box-zm,
+.banner-box-dxzm,
+.banner-box-jl{
+    width: 100%; height: 100%; background-image: url(http://img.t.felink.com/felinkcn/201604/images/zm/zm_b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+.banner-box-tq{background-image: url(http://felink.com.cn/images/tq/banner.jpg);}
+.banner-box-sp{background-image: url(http://img.t.felink.com/felinkcn/201604/images/sp/sp_b1.jpg);}
+.banner-box-xt{background-image: url(http://img.t.felink.com/felinkcn/201604/images/xt/xt_b1.jpg);}
+.banner-box-dxzm{background-image: url(http://img.t.felink.com/felinkcn/201604/images/dxzm/dxzm_b2.jpg);}
+
+
+/* 默认banner 下载和QR样式 */
+.download-learn-more a.btnDownload-android{float:left;display:block; margin: 0; padding: 0 30px; width: 267px;height: 55px; line-height: 55px; border-radius: 0px; background: #00bcd5;font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;  font-weight: 300; font-size: 22px; letter-spacing: 3px; color: #FFF;  }
+.download-learn-more a.btnDownload-android:hover{ background: #33dde5;}
+.download-learn-more a.btnDownload-ios { float:left; display:block; font-size:22px; line-height:55px; margin: 0 0 0 13px; width: 230px; height: 55px; border: solid 1px #00bcd5; font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;border-right: none; border-radius: 2px 0 0 2px; overflow: hidden; color:#00bcd5;}
+.download-learn-more a.btnDownload-ios:hover {background-color:#e1f5f7;}
+.download-learn-more a.btnDownload-qr{float:left; display:block; margin: 0; width: 50px; height: 55px; border: solid 1px #FFF; border-left: none; border-radius: 0 0 0 0; background: url('http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png') no-repeat center center; text-indent: -9999px; overflow: hidden;}
+.download-learn-more a.btnDownload-androidqr{ background-color:#00bcd5; border: solid 1px #00bcd5;}
+.download-learn-more a.btnDownload-androidqr:hover{ background-color:#33dde5;}
+.download-learn-more a.btnDownload-iosqr{ border: solid 1px #00bcd5;  border-left:none; background-image:url(http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_2.png);}
+.download-learn-more a.btnDownload-iosqr:hover{   background-color:#e1f5f7;}
+
+.btnDownload-ios-menu{position:absolute; left:787px; top:65px; padding:0; margin:0; display:none;}
+.btnDownload-ios-menu li a{display:block; width: 230px; height: 55px; background-color:#00bcd5; color:#fff; font-size:24px; line-height:55px; margin-top:1px;}
+.btnDownload-ios-menu li a:hover{background:#33dde5;}
+
+.download-read-more-container{position:relative; width:970px; margin:0 auto;}
+.download-read-more{ position: absolute; right:0px; top:380px; font-size:16px; line-height: 40px; font-family:'Microsoft YaHei',微软雅黑, sans-serif; z-index:99;}
+.download-read-more a{display:block;}
+.download-read-more .glyphicon-upload{
+    background:url(http://img.t.felink.com/felinkcn/201604/images/Home/download-more-icon.png) no-repeat 0 0;
+    text-indent:-999em;
+    display:inline-block; width:20px; height:20px;
+    top:0;
+    margin-left:6px;
+}
+.xt-content .download-read-more{ top: 360px;}
+
+.zm-content .download-read-more .glyphicon-upload{ color:#06bdd5;}
+.tq-content .download-read-more a{color:#fff;}
+.tq-content .download-read-more a:hover{color:#aaa;}
+.tq-content .download-read-more .glyphicon-upload{background-position:0 -22px;}
+
+.sp-content .download-read-more a{color:#5e3dcc;}
+.sp-content .download-read-more a:hover{color:#06bdd5;}
+.sp-content .download-read-more .glyphicon-upload{background-position:0 -22px;}
+
+.xt-content .download-read-more a{color:#747474;}
+.xt-content .download-read-more a:hover{color:#333;}
+
+.zm-content{ color:#747474;}
+.zm-content h2{background:url(http://img.t.felink.com/felinkcn/201604/images/zm/zm_logo.png) no-repeat center center; text-indent:-999em;}
+.zm-content p{font-size:24px; font-family:'Microsoft YaHei',微软雅黑, sans-serif; margin-top:20px; margin-bottom:20px;}
+
+
+
+
+
+.tq-content{ color:#000;}
+.tq-content h2{background:url(http://felink.com.cn/images/tq/tq-logo.png?v=1) no-repeat center center; text-indent:-999em;}
+.tq-content p{font-size:32px; font-weight:lighter;line-height:32px;margin:29px 0 13px;font-family:'Microsoft YaHei',微软雅黑, sans-serif; color:#fff;}
+.tq-content p.subtitle{font-size:20px;line-height: 20px; margin: 0 0 20px;}
+.tq-content .download-learn-more a.btnDownload-android{ background:#FFF; color:#000; border:1px solid #fff;}
+.tq-content .download-learn-more a.btnDownload-androidqr{background:#FFF url("http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_3.png") no-repeat center center; border:1px solid #fff;}
+.tq-content .download-learn-more a.btnDownload-ios{ border: solid 1px #FFF;  border-width:1px 0 1px 1px; color:#fff;}
+.tq-content .download-learn-more a.btnDownload-iosqr{background-image:url(http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png); border:1px solid #fff; border-width:1px 1px 1px 0;}
+.tq-content .download-learn-more a.btnDownload-android:hover,
+.tq-content .download-learn-more a.btnDownload-androidqr:hover{ background-color: #ddd;}
+.tq-content .download-learn-more a.btnDownload-ios:hover,
+.tq-content .download-learn-more a.btnDownload-iosqr:hover{ background-color:#07588f;}
+
+.tq-content .btnDownload-ios-menu{ }
+.tq-content .btnDownload-ios-menu li a{background-color:#FFF; color:#000;}
+.tq-content .btnDownload-ios-menu li a:hover{background:#ddd;}
+
+
+.sp-content{ color:#000;}
+.sp-content h2{background:url(http://img.t.felink.com/felinkcn/201604/images/sp/sp_logo_20160722.png) no-repeat center center; text-indent:-999em;}
+.sp-content p{font-size:24px; font-family:'Microsoft YaHei',微软雅黑, sans-serif; margin-top:20px; margin-bottom:20px; color:#5d38d6;}
+.sp-content .download-learn-more a.btnDownload-android{ background:transparent; color:#FFF; border:1px solid #fff; border-width:1px 0 1px 1px;}
+.sp-content .download-learn-more a.btnDownload-androidqr{background: transparent url("http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png") no-repeat center center; border:1px solid #fff; border-width:1px 1px 1px 0;}
+.sp-content .download-learn-more a.btnDownload-android:hover,
+.sp-content .download-learn-more a.btnDownload-androidqr:hover{ background-color: #5d38d6;}
+
+.xt-content{ color:#000;}
+.xt-content h2{background:url(http://img.t.felink.com/felinkcn/201604/images/xt/xt_logo.png) no-repeat center center; text-indent:-999em; height:100px;}
+.xt-content p{font-size:24px; font-family:'Microsoft YaHei',微软雅黑, sans-serif; margin-top:20px; margin-bottom:20px;}
+.xt-content .download-learn-more a.btnDownload-android{ background:#00dcc8; color:#FFF; border:1px solid #00dcc8;}
+.xt-content .download-learn-more a.btnDownload-androidqr{background:#00dcc8 url("http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png") no-repeat center center; border:1px solid #00dcc8;}
+.xt-content .download-learn-more a.btnDownload-ios{ border: solid 1px #00dcc8;  border-width:1px 0 1px 1px; color:#fff;}
+.xt-content .download-learn-more a.btnDownload-iosqr{background-image:url(http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png); border:1px solid #00dcc8; border-width:1px 1px 1px 0;}
+.xt-content .download-learn-more a.btnDownload-android:hover,
+.xt-content .download-learn-more a.btnDownload-androidqr:hover{ background-color: #00f3dd;}
+.xt-content .download-learn-more a.btnDownload-ios:hover,
+.xt-content .download-learn-more a.btnDownload-iosqr:hover{ background-color:#8bd7e3;}
+
+.xt-content .btnDownload-ios-menu{ }
+.xt-content .btnDownload-ios-menu li a{background-color:#00dcc8; color:#fff;}
+.xt-content .btnDownload-ios-menu li a:hover{background:#00f3dd;}
+
+
+
+
+.dxzm-content{ color:#FFF;}
+.dxzm-content h2:before {content: url(http://img.t.felink.com/felinkcn/201604/images/dxzm/dxzm_icon2_63x63.png);vertical-align: sub;padding-right: 15px;}
+.dxzm-content h2{font-family: '黑体','Microsoft YaHei',微软雅黑, sans-serif; font-size:53px; font-weight:100; vertical-align: middle;}
+.dxzm-content p{font-size:32px; font-family:'Microsoft YaHei',微软雅黑, sans-serif; margin-top:20px; margin-bottom:20px; color:#FFF;}
+.dxzm-content .download-learn-more a.btnDownload-android{ background:transparent; color:#FFF; border:1px solid #fff; border-width:1px 0 1px 1px;}
+.dxzm-content .download-learn-more a.btnDownload-androidqr{background: transparent url("http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png") no-repeat center center; border:1px solid #fff; border-width:1px 1px 1px 0;}
+.dxzm-content .download-learn-more a.btnDownload-android:hover,
+.dxzm-content .download-learn-more a.btnDownload-androidqr:hover{ background-color: rgba(255,255,255,0.2);}
+.dxzm-content .download-read-more a{color:#FFF;}
+.dxzm-content .download-read-more a:hover{color:#FFc;}
+.dxzm-content .download-read-more .glyphicon-upload{background-position:0 -22px;}
+
+
+.banner-box-genius {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/Home/Home_genius.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-attachment:fixed;*/
+    /*background-repeat:no-repeat;*/
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+
+.banner-box-launcher {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/Home/Home_laucher.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+
+.banner-box-shine {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/Home/Home_shine.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+
+.banner-box-pixelphone {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/pixelphone/Home_pixelphone.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+
+.banner-box-support {
+    height: 304px;
+    width: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/support/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+}
+
+.banner-box-about {
+    height: 304px;
+    width: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/about/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+
+}
+
+.banner-box-geniuswork {
+    height: 304px;
+    width: 100%;
+    background-image: url(http://img.t.felink.com/felinkcn/201604/images/geniusWork/head.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover
+
+}
+
+.banner-content {
+    /*padding: 200px 0 200px 0;*/
+    position: absolute;
+    text-shadow: none;
+    height: 98%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    word-wrap: break-word;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.banner-content .genius-content {
+    /*margin-top: 570px;*/
+    position: absolute;
+    right: 8%;
+    left: 8%;
+    bottom: 105px;
+}
+
+.banner-content .pixelphone-content,
+.banner-content .shine-content,
+.banner-content .launcher-content {
+    /*margin-top: 570px;*/
+    position: absolute;
+    right: 8%;
+    left: 8%;
+    top: 60px;
+}
+
+.banner-content .genius-content h2:before {
+    content: url(http://img.t.felink.com/felinkcn/201604/images/Home/GeniusICON-xiao.png);
+    vertical-align: text-bottom;
+    padding-right: 15px;
+}
+
+.banner-content .launcher-content h2:before {
+    content: url(http://img.t.felink.com/felinkcn/201604/images/Home/MoboLauncherICON-xiao.png);
+    vertical-align: text-bottom;
+    padding-right: 15px;
+}
+
+.banner-content .shine-content h2:before {
+    content: url(http://img.t.felink.com/felinkcn/201604/images/Home/ShineICON-xiao.png);
+    vertical-align: text-bottom;
+    padding-right: 15px;
+}
+.banner-content .pixelphone-content h2:before {
+    content: url(http://img.t.felink.com/felinkcn/201604/images/pixelphone/pixelphone_logo_63x63.png);
+    vertical-align: text-bottom;
+    padding-right: 15px;
+}
+.banner-content .pixelphone-content h2,
+.banner-content .launcher-content h2,
+.banner-content .genius-content h2{
+    font-size: 53px;
+    color: #fffffd;
+    font-family: 'Microsoft YaHei',微软雅黑,sans-serif;
+    font-weight: 700;
+}
+
+.banner-content .shine-content h2 {
+    font-size: 55px;
+    color: #ffc700;
+    font-family: 'Microsoft YaHei',微软雅黑,sans-serif;
+    font-weight: 700;
+}
+
+.banner-content .genius-content span {
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.banner-content .genius-content .genius-span-small {
+    display: none;
+}
+.banner-content .pixelphone-content p,
+.banner-content .shine-content p,
+.banner-content .launcher-content p{
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px 0 10px 0;
+    /*word-spacing: 10px;*/
+    letter-spacing: 2px;
+    font-weight:100;
+}
+.banner-content .genius-content p {
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight:100;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px 0 10px 0;
+    /*word-spacing: 10px;*/
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.banner-content .btn-download-app {
+    padding: 10px;
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.banner-content .btn-download-code {
+    padding: 10px;
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.felink-menu{
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+}
+.genius-title-sml{
+    display: none;
+}
+/*.rd-mobilepanel_title:after{*/
+/*content: url(../images/Home/felinkLOGO-white.png);*/
+/*position: relative;*/
+/*top: 6px;*/
+
+/*}*/
+
+/* @Media */
+@media screen and (max-width: 600px) {
+    .item .img-slide {
+        height: 332px;
+    }
+
+    .banner-box {
+        height: 603px;
+    }
+    .banner-content {
+        right: 1%;
+        left: 1%;
+    }
+
+    .banner-box-genius {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/genius-banner.jpg);
+    }
+    .banner-box-launcher {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/launcher-banner.jpg);
+    }
+
+    .banner-box-shine {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/shine-banner.jpg);
+    }
+    .banner-box-pixelphone {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/pixelphone/pixelphone_sm.jpg);
+    }
+    .banner-box-support {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/support-head.jpg);
+    }
+
+    .banner-box-about {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/About-US.jpg);
+    }
+
+    .banner-box-geniuswork {
+        background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/how-work.jpg);
+    }
+    .banner-content .pixelphone-content h2,
+    .banner-content .shine-content h2,
+    .banner-content .launcher-content h2,
+    .banner-content .genius-content h2 {
+        font-size: 28px;
+        white-space: nowrap; /* ������ */
+    }
+
+    .banner-content .genius-content span {
+        font-size: 12px;
+        line-height: 15px;
+        word-wrap: break-word;
+    }
+
+    .banner-content .genius-content .genius-span-big {
+        display: none;
+    }
+
+    .banner-content .genius-content .genius-span-small {
+        display: block;
+    }
+    .banner-content .pixelphone-content p,
+    .banner-content .shine-content p,
+    .banner-content .launcher-content p,
+    .banner-content .genius-content p {
+        padding: 0px 0 1px 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .banner-content .btn-download-app {
+        padding: 5px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-content .btn-download-code {
+        /*display: none;*/
+        padding: 5px;
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-content .genius-content h2:before {
+        content: url(http://img.t.felink.com/felinkcn/201604/images/mobile/Genius-logo.png);
+        vertical-align: text-bottom;
+        padding-right: 5px;
+    }
+
+    .banner-content .launcher-content h2:before {
+        content: url(http://img.t.felink.com/felinkcn/201604/images/mobile/Mobo-logo.png);
+        vertical-align:text-bottom;
+        padding-right: 5px;
+    }
+
+    .banner-content .shine-content h2:before {
+        content: url(http://img.t.felink.com/felinkcn/201604/images/mobile/Shine-logo.png);
+        vertical-align: text-bottom;
+        padding-right: 5px;
+    }
+    .banner-content .pixelphone-content h2:before {
+        content: url(http://img.t.felink.com/felinkcn/201604/images/pixelphone/pixelphone_logo_27x27.png);
+        vertical-align: text-bottom;
+        padding-right: 5px;
+    }
+    .banner-content .genius-content {
+        /*margin-top: 570px;*/
+        top: auto;
+        bottom: 40px;
+    }
+    .banner-content .pixelphone-content,
+    .banner-content .shine-content,
+    .banner-content .launcher-content {
+        top: 15px;
+    }
+
+    .banner-content .btn-download-app img,
+    .banner-content .btn-download-code img {
+        width: 186px;
+        height: 35px;
+    }
+    .genius-title-sml{
+        display: block;
+    }
+    .genius-title-big{
+        display: none;
+    }
+    .carousel-control{
+        display: none;
+    }
+
+    .download-read-more{right:0; top:400px;}
+
+    .banner-box-zm{background-image: url(http://img.t.felink.com/felinkcn/201604/images/zm/zm_b1_sm.jpg);}
+    .zm-content h2{background-size:120px 35px; height:35px;}
+    .zm-content p{margin-top:5px; margin-bottom:5px; font-size:16px;}
+    .download-learn-more a.btnDownload-android,
+    .download-learn-more a.btnDownload-ios{display: block; width: 196px; height: 38px; line-height: 40px;padding: 0;margin: 10px 0 0 0px;font-size: 15px;}
+    .download-learn-more a.btnDownload-qr{display:none;}
+    .download-learn-more a.btnDownload-ios{border-right:1px solid #00bcd5;}
+
+    .banner-box-tq{background-image: url(http://felink.com.cn/images/tq/banner_phone.jpg);}
+    .tq-content h2{background-size:167px 34px; height:35px;}
+    .tq-content p{margin-top:10px; margin-bottom:10px; font-size:16px;line-height: 20px;}
+    .tq-content p.subtitle{font-size:14px;margin-top:0; margin-bottom:10px; }
+    .tq-content .download-learn-more a.btnDownload-android,
+    .tq-content .download-learn-more a.btnDownload-ios{display: block; width: 196px; height: 38px; line-height: 40px;padding: 0;margin: 10px 0 0 0px;font-size: 15px;}
+    .tq-content .download-learn-more a.btnDownload-qr{display:none;}
+    .tq-content .download-learn-more a.btnDownload-ios{border-right:1px solid #FFF;}
+
+    .banner-box-sp{background-image: url(http://img.t.felink.com/felinkcn/201604/images/sp/sp_b1_sm.jpg);}
+    .sp-content h2{background-size:125px 30px; height:35px;}
+    .sp-content p{margin-top:5px; margin-bottom:5px; font-size:16px;}
+    .sp-content .download-learn-more a.btnDownload-android,
+    .sp-content .download-learn-more a.btnDownload-ios{display: block; width: 196px; height: 38px; line-height: 40px;padding: 0;margin: 10px 0 0 0px;font-size: 15px; border:1px solid #fff}
+    .sp-content .download-learn-more a.btnDownload-qr{display:none;}
+    .sp-content .download-learn-more a.btnDownload-ios{border-right:1px solid #FFF;}
+
+    .banner-box-xt{background-image: url(http://img.t.felink.com/felinkcn/201604/images/xt/xt_b1_sm.jpg);}
+    .xt-content h2{background-size:108px 50px; height:35px;}
+    .xt-content p{margin-top:5px; margin-bottom:5px; font-size:16px;}
+    .xt-content .download-learn-more a.btnDownload-android,
+    .xt-content .download-learn-more a.btnDownload-ios{display: block; width: 196px; height: 38px; line-height: 40px;padding: 0;margin: 10px 0 0 0px;font-size: 15px;}
+    .xt-content .download-learn-more a.btnDownload-qr{display:none;}
+    .xt-content .download-learn-more a.btnDownload-ios{border-right:1px solid #00bcd5;}
+
+    .banner-box-dxzm{background-image: url(http://img.t.felink.com/felinkcn/201604/images/dxzm/dxzm_b2sm1.jpg);}
+    .dxzm-content h2{background-size:125px 30px; height:35px; font-size:24px;}
+    .dxzm-content h2:before {content: url(http://img.t.felink.com/felinkcn/201604/images/dxzm/dxzm_icon2_27x27.png); padding-right: 5px;    }
+    .dxzm-content p{margin-top:5px; margin-bottom:5px; font-size:16px;}
+    .dxzm-content .download-learn-more a.btnDownload-android,
+    .dxzm-content .download-learn-more a.btnDownload-ios{display: block; width: 196px; height: 38px; line-height: 40px;padding: 0;margin: 10px 0 0 0px;font-size: 15px; border:1px solid #fff}
+    .dxzm-content .download-learn-more a.btnDownload-qr{display:none;}
+    .dxzm-content .download-learn-more a.btnDownload-ios{border-right:1px solid #FFF;}
+
+
+    .btnDownload-ios-menu li a{display:block; width: 196px; height:38px; line-height:38px; font-size:14px;}
+}
+
+@media (max-height: 480px) {
+    .banner-content .pixelphone-content h2,
+    .banner-content .shine-content h2,
+    .banner-content .launcher-content h2,
+    .banner-content .genius-content h2 {
+        font-size: 24px;
+        white-space: nowrap; /* ������ */
+    }
+
+    .banner-content .genius-content span {
+        font-size: 9px;
+        word-wrap: break-word;
+    }
+
+    .banner-content .genius-content .genius-span-big {
+        display: none;
+    }
+
+    .banner-content .genius-content .genius-span-small {
+        display: block;
+    }
+    .banner-content .pixelphone-content p,
+    .banner-content .shine-content p,
+    .banner-content .launcher-content p,
+    .banner-content .genius-content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .banner-content .zm-content p{font-size:12px;}
+    .banner-content .tq-content p{font-size:12px;}
+    .banner-content .sp-content p{font-size:12px;}
+    .banner-content .xt-content p{font-size:12px;}
+
+}
+
+@media (min-width: 601px) and (max-width: 720px) {
+    .item .img-slide { height: 398px; }
+
+    .banner-box {height: 603px;}
+    .banner-content {right: 1%; left: 1%;}
+    .banner-box-genius { background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/geniu-logo-sm.png); }
+    .banner-box-launcher { background-image: url(http://img.t.felink.com/felinkcn/201604/images/Home/launcher-sm.png); }
+    .banner-box-shine { background-image: url(http://img.t.felink.com/felinkcn/201604/images/Home/shine-sm.png); }
+    .banner-box-pixelphone { background-image: url(http://img.t.felink.com/felinkcn/201604/images/pixelphone/pixelphone_sm.jpg); }
+    .banner-box-support { background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/support-head.png); }
+    .banner-box-about { background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/about-head.png); }
+    .banner-box-geniuswork { background-image: url(http://img.t.felink.com/felinkcn/201604/images/mobile/howwork-head.png);}
+
+    .banner-content .genius-content h2 {
+        font-size: 48px;
+    }
+    .banner-content .genius-content span {
+        font-size: 16px;
+    }
+    .banner-content .genius-content p {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .banner-content .btn-download-app {
+        padding: 10px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-content .btn-download-code {
+        padding: 10px;
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-content .btn-download-app img,
+    .banner-content .btn-download-code img {
+        width: 278px;
+    }
+
+
+    .banner-box-zm{background-image: url(http://img.t.felink.com/felinkcn/201604/images/zm/zm_b1_sm.jpg);}
+    .zm-content .download-learn-more a.btnDownload-android,
+    .zm-content .download-learn-more a.btnDownload-ios{display: block; width: 278px; padding: 0; margin: 10px 0 0 0px; font-size: 16px; }
+    .zm-content .download-learn-more a.btnDownload-qr{display:none;}
+    .zm-content .download-learn-more a.btnDownload-ios{border-right:1px solid #00bcd5;}
+
+    .banner-box-tq{background-image: url(http://img.t.felink.com/felinkcn/201604/images/tq/tq_b1_sm.jpg);}
+    .tq-content .download-learn-more a.btnDownload-android,
+    .tq-content .download-learn-more a.btnDownload-ios{display: block; width: 278px; padding: 0; margin: 10px 0 0 0px; font-size: 16px; }
+    .tq-content .download-learn-more a.btnDownload-qr{display:none;}
+    .tq-content .download-learn-more a.btnDownload-ios{border-width:1px;}
+
+    .banner-box-sp{background-image: url(http://img.t.felink.com/felinkcn/201604/images/sp/sp_b1_sm.jpg);}
+    .sp-content .download-learn-more a.btnDownload-android,
+    .sp-content .download-learn-more a.btnDownload-ios{display: block; width: 278px; padding: 0; margin: 10px 0 0 0px; font-size: 16px; border-width:1px;}
+    .sp-content .download-learn-more a.btnDownload-qr{display:none;}
+    .sp-content .download-learn-more a.btnDownload-ios{border-width:1px;}
+
+    .banner-box-xt{background-image: url(http://img.t.felink.com/felinkcn/201604/images/xt/xt_b1_sm.jpg);}
+    .xt-content .download-learn-more a.btnDownload-android,
+    .xt-content .download-learn-more a.btnDownload-ios{display: block; width: 278px; padding: 0; margin: 10px 0 0 0px; font-size: 16px; }
+    .xt-content .download-learn-more a.btnDownload-qr{display:none;}
+    .xt-content .download-learn-more a.btnDownload-ios{border-width:1px;}
+
+    .banner-box-dxzm{background-image: url(http://img.t.felink.com/felinkcn/201604/images/dxzm/dxzm_b2sm1.jpg);}
+    .dxzm-content .download-learn-more a.btnDownload-android,
+    .dxzm-content .download-learn-more a.btnDownload-ios{display: block; width: 278px; padding: 0; margin: 10px 0 0 0px; font-size: 16px; border-width:1px;}
+    .dxzm-content .download-learn-more a.btnDownload-qr{display:none;}
+    .dxzm-content .download-learn-more a.btnDownload-ios{border-width:1px;}
+
+
+    .download-read-more-container{position:relative; width:100%; margin:0 auto;}
+    .download-read-more{right:0; top:285px;}
+    .btnDownload-ios-menu li a{display:block; width: 278px; font-size:16px;}
+
+}
+
+@media (min-width: 721px) and (max-width: 959px) {
+    .item .img-slide {
+        height: 478px;
+    }
+    .banner-content {
+        right: 1%;
+        left: 1%;
+    }
+    .download-read-more-container{position:relative; width:100%; margin:0 auto;}
+    .download-read-more{right:0;}
+}
+
+.navbar-submenu{position:absolute; left:1000px; top:87px; background:#fff; box-shadow:0px 1px 1px;}
+.navbar-submenu li{width:120px; line-height:40px;}
+.navbar-submenu li a{display:block;}
+
+.navbar-brand:before {
+    content: url(http://img.t.felink.com/felinkcn/201604/images/Home/LOGO.png);
+}
+
+
+/* zm.html v9 style 2017-12-20 */
+    /*  
+        style for weixin 
+        remind user download from right top menu 
+    */
+    .mb{ position:fixed; left:0; top:0; opacity:0.9; z-index:100; display:none; background:#000; height:100%;
+        width:100%; z-index:99999992; display:none;}
+    .mbbtn{ position:absolute; left:0; top:0; width:100%; height:100%; display:block;}
+    .fullimg{ width:100%;}
+
+    /* banner-box */
+    
+    .banner-box-zm{ background-image:url(http://img.t.felink.com/uploads/171213/v9/zm-b1.png);}
+
+    .zm-content{ color:#FFF;}
+    .zm-content h2{background:url(http://img.t.felink.com/uploads/171213/v9/zm_logo.png) no-repeat center center; text-indent:-999em; background-size:contain;}
+    .zm-content p{font-size:24px; font-family:'Microsoft YaHei',sans-serif; margin-top:20px; color:#FFF;  line-height:1.4; margin-bottom:5px;}
+
+    .zm-content .download-learn-more a.btnDownload-android{ background-color:#fff; color:#09a7f1}
+    .zm-content .download-learn-more a.btnDownload-androidqr{ background-color:#fff; border:1px solid #fff;}
+    .zm-content .download-learn-more a.btnDownload-qr{background-image:url(http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_2.png)}
+    .zm-content .download-learn-more a.btnDownload-ios{border:1px solid #fff; border-right:0; color:#fff;}
+    .zm-content .download-learn-more a.btnDownload-iosqr{ border:1px solid #fff; border-left:0;background-image:url(http://img.t.felink.com/felinkcn/201604/images/Home/btn_qr_1.png)}
+    .zm-content .download-learn-more a.btnDownload-ios:hover,
+    .zm-content .download-learn-more a.btnDownload-iosqr:hover{ background-color:rgba(255,255,255,0.3);}
+
+    .zm-content .download-read-more a{ background-image:url(http://img.t.felink.com/uploads/171213/v9/more.png); width:154px; height:23px; text-indent:-9999em;}
+
+    .download-read-more{top:460px;right:65px;}
+
+    /* v9 style */
+   .cion_list .wrapper{width:1002px; margin:0 auto;}
+    
+    .cion_v8{ font-family: "Microsoft YaHei", "黑体", "宋体";}
+    .cion_v8 h2{font-size:48px; margin-bottom:30px;font-family: "Microsoft YaHei", "黑体", "宋体"; font-weight:bold; position:relative; height:50px;}
+    .cion_v8 h2 span{
+        position:absolute; left:0; top:0;
+        z-index:2;
+    }
+    .cion_v8 h2:after{
+        content:""; position:absolute; 
+        width:216px; height:40px; background-color:#9edcfe;
+        left:10px; top:20px;
+        z-index:1;
+    }
+    .cion_v8b1 h2:after{ background-color:#9edcfe;}
+    .cion_v8b2 h2:after{ background-color:#ff7a55;}
+    .cion_v8b3 h2:after{ background-color:#fff45c;}
+    .cion_v8b4 h2:after{ background-color:#472af2;}
+    
+
+    .cion_v8 p{font-size:16px;}
+
+  .cion_v8b1{background:#FFF url(http://img.t.felink.com/felinkcn/201604/images/zm/v9b1.jpg) no-repeat center top; height:800px; background-size:cover;}
+    .cion_v8b2{background:#FFF url(http://img.t.felink.com/felinkcn/201604/images/zm/v9b2.jpg) no-repeat center top; height:800px; background-size:cover;}
+    .cion_v8b3{background:#FFF url(http://img.t.felink.com/felinkcn/201604/images/zm/v9b3.jpg) no-repeat center top; height:800px; background-size:cover;}
+    .cion_v8b4{background:#FFF url(http://img.t.felink.com/felinkcn/201604/images/zm/v9b4.jpg) no-repeat center top; height:800px; background-size:cover;}
+
+
+    .cion_v8b1 .cion_v8_txt{ position:absolute;left: 650px;width: 350px;top: 200px;}
+    .cion_v8b2 .cion_v8_txt{  position:absolute;left: 150px;width:450px;top: 150px; color:#fff;}
+    .cion_v8b3 .cion_v8_txt{position:absolute;left: 65%;width: 400px;top: 200px;}
+    .cion_v8b4 .cion_v8_txt{position:absolute;left: 10%;width: 40%; top: 150px; color:#fff;}
+
+    .cion_tbm .weixin,
+    .cion_tbm .qqweibo{background-image:url(http://zm.felink.com/upload/13v2/v8/social.png);}
+
+
+    @media screen and (min-width: 1920px) {
+        
+        .banner-box-zm{ background-size:auto 100%; background-color:#09a7f1;}
+    }
+
+    @media (max-width: 1002px){
+        .banner-box-zm{ background-image:url(http://img.t.felink.com/uploads/171213/v9/zm-b1_sm1.jpg);
+            /*height:650px;*/
+        }
+        .zm-content p{font-size:18px; margin:20px 0;}
+
+        .cion_list .wrapper{max-width:100%; margin:0 auto;}
+        .cion_v8 h2{ padding-top:20px; font-size:36px; margin-bottom:30px;font-family: "Microsoft YaHei", "黑体", "宋体"; font-weight:lighter; height:auto; color:#000;}
+        .cion_v8 h2 span{position:relative;}
+        .cion_v8 h2:after{display:none;}
+        .cion_v8 p{font-size:16px; color:#000; margin-bottom:30px;}
+        
+        .cion_v8 img{ max-width:90%; display:block; margin:0 auto;}
+
+        .cion_v8b1,.cion_v8b2,.cion_v8b3,.cion_v8b4{ background-image:url(""); height:auto; padding-bottom:50px; border-top:1px solid #aaa;}
+
+        .cion_v8b1 .cion_v8_txt,
+        .cion_v8b2 .cion_v8_txt,
+        .cion_v8b3 .cion_v8_txt,
+        .cion_v8b4 .cion_v8_txt{ position:static; width:90%; margin:0 auto;}
+
+        
+    }
+
+    @media screen and (max-width: 600px) {
+        .banner-box-zm{ height:100%;}
+
+        .zm-content .download-learn-more a.btnDownload-ios{border:1px solid #fff;  color:#fff;}
+    }
+
+/* zm.html v10 start 2018-12-17 */
+.banner-box-zm{ background-image:url(http://img.t.felink.com/uploads/171213/v10/zm-b1-v10.png);}
+.banner-main-zm{ background-image:url(http://img.t.felink.com/uploads/171213/v10/banner-main.png);
+    position: absolute;width:1400px;height:100%;left:50%;bottom:0;
+    background-position:center bottom;background-repeat: no-repeat;background-size: 100%;
+    margin-left: -700px;
+}
+.zm-content .download-read-more{top:350px;left: 50%;margin-left: -80px;}
+.zm-content .download-read-more a{ background-image:none; width:154px; height:23px; text-indent:0;}
+.zm-content .download-read-more .glyphicon-upload {
+    background-position: 0 -22px;
+}
+.zm-content .download-read-more a{width: 176px}
+@media (max-width: 1002px){
+    .banner-box-zm {
+        background-image: url(http://img.t.felink.com/uploads/171213/v10/zm-b1-sm1.png);
+    }
+    .banner-main-zm{
+        display: none;
+    }
+}
+@media screen and (min-width: 1920px) {
+
+    .banner-box-zm{ background-size:cover; background-color:#40fcf6;}
+}
+@media screen and (min-width: 720px) {
+    .zm-content{margin-top: 26px;}
+    .zm-content .download-learn-more{margin-top: 15px;}
+}
+@media screen and (max-width: 600px){
+    .zm-content p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+}
+
+.cv10b1{
+    height:502px;
+}
+.cv10b2{
+    height: 502px;
+    background-color: #f9f9f9;
+}
+.cv10b3{
+    height:542px;
+}
+.cv10b4{
+    height: 502px;
+    background-color: #f9f9f9;
+}
+.cv10_icon{
+    width:74px;
+    height:74px;
+    margin-bottom: 31px;
+}
+
+.cv10{
+    font-family: "Microsoft YaHei", "黑体", "宋体";
+}
+.cv10 .wrapper{
+    width: 1126px;
+    height: 100%;
+    position: relative;
+    /*border: 1px solid black;*/
+}
+.cv10 .wrapper:after{
+    clear:both;
+    content:'';
+    display: block;
+}
+.cv10_txt{
+    width:54%;
+    padding-top: 120px;
+    float: left;
+}
+.cv10_txt h2{
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #333333;
+    margin: 0 0 28px;
+    font-family: "Microsoft YaHei", "黑体", "宋体";
+}
+
+.cv10_txt p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+}
+.cv10b1 .cv10_txt, .cv10b3 .cv10_txt{
+    padding-right: 55px;
+}
+.cv10b2 .cv10_txt, .cv10b4 .cv10_txt{
+    padding-left: 50px;
+}
+.cv10_img{
+    width:46%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.cv10_img img{
+    position: absolute;
+}
+.cv10_b1_m0{
+    top: 160px;
+    left: 48px;
+}
+.cv10_b1_m1{
+    top: 50px;
+    left:0;
+}
+.cv10_b1_m2{
+    top: 292px;
+    left:136px;
+    animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+}
+.cv10_b1_gif{
+    width: 196px;
+    height: 349px;
+    top: 86px;
+    left: 42px;
+}
+.cv10_b2_m0{
+    top:58px;
+    left:36px;
+}
+.cv10_img2 img{
+    -webkit-transition: all 1s ease-out 0.8s;
+    transition: all 1s ease-out 0.8s;
+}
+.cv10_b2_m1{
+    top:72px;
+    left:200px;
+}
+.cv10_b2_m2{
+    top:213px;
+    left:273px;
+}
+.cv10_b2_m3{
+    top:146px;
+    left:63px;
+ }
+.cv10_img3{
+    position: absolute;
+    width: 1879px;
+    height: 477px;
+    left:50%;
+    bottom:0;
+    margin-left: -939px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.cv10_img3 > img,.cv10_img3 > div{
+    flex: none;
+    display: inline-block;
+    position: relative;
+}
+.cv10_txt3{
+    margin-left: 46%;
+}
+.cv10_b3_m{
+    width: 213px;
+    height: 477px;
+    margin: 0 14px;
+    -webkit-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+}
+.cv10_b3_main{
+    left:0;
+    bottom:0;
+    width: 100%;
+    height: 75%;
+}
+.cv10_b3_mao{
+    width: 57%;
+    height: 28.09%;
+    left: 50%;
+    margin-left: -28.5%;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s
+}
+.cv10_b3_gif{
+    width: 92.03%;
+    height: 73%;
+    top:26.834%;
+    left:4.225%;
+}
+.cv10_b3_m3{
+    margin-left: 7px;
+}
+.cv10_b3_m2{
+    margin-right: 7px;
+}
+
+.cv10_b4_m1{
+    top:45px;
+    left:100px;
+}
+@media (min-width: 768px){
+    .cv10_img1,.cv10_txt2,.cv10_txt4{
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+    .cv10_txt1,.cv10_img2,.cv10_txt3,.cv10_img4{
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    .cv10_img2 img.before{
+        top:30%;
+        left:35%;
+    }
+    .cv10_img3.before{
+        width: 1748px;
+        margin-left: -874px;
+    }
+    .cv10_img3.before >div,.cv10_img3.before >img{
+        -webkit-animation: 1.5s slideInfinite linear infinite normal;
+        animation: 1.5s slideInfinite linear infinite normal;
+    }
+    .cv10_b3_m.before{
+        width: 116px;
+        height: 199px;
+    }
+    .cv10_b3_mao{
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    @keyframes slideInfinite {
+        0% {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        100% {
+            -webkit-transform: translate3d(-1748px, 0, 0);
+            transform: translate3d(-1748px, 0, 0);
+        }
+    }
+}
+
+@media (max-width: 370px){
+    .banner-box-zm{
+        background-size: 450% 100%;
+    }
+}
+@media (max-width: 767px){
+    .cv10{height:200px;}
+    .cv10_img{
+        /*width: 100%;*/
+        /*height: 60%;*/
+        display: none;
+    }
+    .cv10_txt{
+        width:100%;
+        height: 40%;
+        height: 100%;
+        margin: 0 !important;
+        padding: 5% 0 0 5% !important;
+    }
+    .cv10_icon{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0 15px 10px 0;
+    }
+    .cv10_txt h2{
+        font-size: 25px;
+        margin: 0 0 10px;
+        display: inline-block;
+    }
+    .cv10_txt1{
+        position: absolute;
+        top:0;
+    }
+    .cv10_txt3{
+        position: absolute;
+        top:0;
+    }
+    .cv10_img1{
+        position: absolute;
+        bottom: 0;
+    }
+    .cv10_img3{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* zm.html v10 style end */
+@media (max-width: 767px){
+    #ad-image{
+        display: none;
+    }
+}
+
+/* hltq 官网 v2 */
+.tq-intro h2{
+    color: #5197ff!important;
+}
+.tq-intro p{
+    color: #666666!important;
+}
+.item-launcher .dorodo-booster-warpper.tq {
+    background-color: #f9f9f9;
+}
+.item-launcher .dorodo-booster-warpper.tq .dorodo-booster{
+    text-align: left;
+}
+.item-launcher .dorodo-booster-warpper.tq .dorodo-booster div{
+    margin: 20px 100px 0 0;
+}
+
+.ad_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 9999;
+}
+.ad_layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.8);
+}
+.ad_content{
+    position: absolute;
+    padding: 30px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background: #fff;
+
+}
+.ad_content img{
+    height: 100%;
+    width: auto;
+}
+.ad_content .ad_close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(http://img.t.felink.com/felinkcn/201604/images/Home/close_qr.png) no-repeat center center;
+    text-indent: -99999px;
+    cursor: pointer;
+}
