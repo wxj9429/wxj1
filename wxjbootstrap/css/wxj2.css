@@ -1,0 +1,163 @@
+.a1{
+    margin-top: 8px;
+}
+.a1 div{
+    font-size: 16px;
+}
+.a2{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.a3>ul{
+    display: none;
+}
+.a3:hover ul{
+    display: block;
+}
+.a4{
+    width: 130px;
+    background: #fff;
+    margin-left: -80px;
+    margin-top: -5px;
+}
+.a4 li a{
+    color: #a1a1a1;
+}
+.a5{
+    float: left;
+    margin-left: -10px;
+}
+.a6{
+    background: #fff;
+    border: none;
+}
+@media screen and (min-width:768px){
+    .a2{
+        display: block;
+    }
+    .a6{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .a2{
+        display: none;
+    }
+    .a6{
+        display: block;
+    }
+    .c{
+        width: 100%;
+        position: absolute;
+        top: 50px;
+    }
+}
+.a7{
+
+}
+.a7 li:hover{
+    background: rgb(0, 107, 126);
+}
+
+.a8{
+    margin-left: 440px;
+    width: 220px !important;
+    height: 700px;
+}
+.a10{
+    
+    background: #2A3A48;
+    position: fixed;
+    z-index: 55;
+}
+.a11{
+    border: none;
+    position: fixed;
+    top: 50px;
+    left: -680px;
+    width: 500px;
+    z-index: 999 !important;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.c2{
+    width: 100%;
+    left: 15px;
+}
+.c3{
+    width: 100% !important;
+   
+}
+.c4{
+    padding: 0;
+}
+.c5{
+    width: 100%;
+}
+.about-main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1038px;
+    padding: 90px 0;
+}
+.about-content-cent,
+.about-content {
+    padding: 0 22px 0 22px;
+}
+
+.about-content-cent h2,
+.about-content h2 {
+    font-size: 24px;
+    font-family:'Microsoft YaHei',微软雅黑, sans-serif;
+    color: #333333;
+
+}
+
+.about-content-cent h4 {
+    font-size: 20px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 39px;
+
+}
+
+.about-content-cent p {
+    font-size: 14px;
+    font-family:'Microsoft YaHei',微软雅黑,sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.about-content p {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 39px;
+
+}
+
+
+
+.list-group li{
+    border: none;
+    font-size: 0.16rem;
+    color: #444444;
+}
+.list-group li:hover{
+    color: #5af;
+    margin-left: 0.05rem;
+    transition-duration: 0.5s;
+}
+.sp{
+    font-size: 0.24rem;
+    color: #A1A1A1;
+    margin-left: 0.1rem;
+}
+.recordcode{
+    color: #a1a1a1;
+}

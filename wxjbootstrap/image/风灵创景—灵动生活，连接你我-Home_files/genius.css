@@ -1,0 +1,800 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Montserrat:400,700|Questrial&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);*/
+@import "../google--felink-font.css";
+.item-launcher .mobile-light,
+.item-launcher .media-comment,
+.item-launcher .smart-folders,
+.item-launcher .dorodo-booster-warpper .dorodo-booster,
+.item-launcher .mobile-search {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    /*min-width: 480px;*/
+    padding: 90px 0;
+}
+
+.item-launcher .media-comment {
+    overflow: hidden;
+    position: relative;
+}
+
+.item-launcher .media-comment .media-icon {
+    display: block;
+    float: left;
+}
+
+.item-launcher .media-comment .media-dialog {
+    display: block;
+    margin: 0 0 0 200px;
+    padding: 10px 10px 10px 20px;
+    word-wrap: break-word;
+    min-height: 100px;
+    height: 100%;
+    /*width: 100%;*/
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    /*background-image: url(../images/genius/dialogbox.png);*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 50;
+}
+
+.item-launcher .media-comment .media-dialog p {
+    position: relative;
+    z-index: 50;
+}
+
+.item-launcher .media-comment .media-dialog .bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #f7f7f7;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    overflow: visible;
+}
+
+.item-launcher .media-comment .media-dialog .arrow {
+    display: block;
+    border: 10px solid;
+    border-color: transparent #f7f7f7 transparent transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+    top: 20%;
+    z-index: 20;
+    box-sizing: content-box;
+}
+
+.item-launcher .apps-work-parent {
+    background: #f7fbff;
+}
+
+.item-launcher .apps-work {
+    position: relative;
+    margin: 0 auto;
+    max-width: 926px;
+    /*min-width: 480px;*/
+    padding: 20px 0;
+
+}
+
+.item-launcher .apps-work div h2 {
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    float: left;
+    width: 15%;
+    color: #c5c5c5;
+}
+.item-launcher .mobile-light div h2,
+.item-launcher .smart-folders div h2,
+.item-launcher .mobile-search div h2,
+.item-launcher .dorodo-booster-warpper .dorodo-booster div h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 100;
+    color: #333333;
+}
+
+.item-launcher .apps-work p {
+    padding: 20px 0;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 100;
+    color: #333333;
+}
+
+.item-launcher .apps-work small {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    line-height: 18px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+}
+
+.item-launcher .apps-work p span {
+    font-size: 80px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 100;
+}
+
+.item-launcher .apps-work p small {
+    font-size: 28px;
+    font-family:'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 100;
+    margin: 0 39px 0 0;
+}
+
+.item-launcher .apps-work div p {
+    width: 80%;
+    float: left;
+    line-height: 28px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+}
+
+/*.item-launcher .media-comment .media-dialog{*/
+/*padding: 10px 10px 10px 50px;*/
+/*word-wrap: break-word;*/
+/*min-height: 100px;*/
+/*height: 100%;*/
+/*/!*width: 100%;*!/*/
+/*font-weight: 300;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*line-height: 28px;*/
+/*font-size: 16px;*/
+/*background-image: url(../images/genius/dialogbox.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size:100% 100%;*/
+/*float: right;*/
+/*width: 80%;*/
+/*}*/
+.item-launcher .mobile-light div p,
+.item-launcher .smart-folders div p,
+.item-launcher .dorodo-booster-warpper .dorodo-booster div p,
+.item-launcher .mobile-search div p {
+    margin-top: 40px;
+    padding: 0;
+    line-height: 28px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    text-align: left;
+}
+
+.item-launcher .dorodo-booster-warpper p {
+    padding: 0 0 47px 0;
+    text-align: center;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 100;
+    line-height: 28px;
+    font-size: 26px;
+    color: #333333;
+}
+
+.item-launcher .smart-folders div {
+    float: left;
+    margin: 20px 100px 0 0;
+    width: 50%;
+    text-align: left;
+}
+.item-launcher .mobile-light div{
+    float: right;
+    margin: 20px 100px 0 0;
+    width: 40%;
+    text-align: left;
+}
+.item-launcher .mobile-search div {
+    float: left;
+    margin: 20px 100px 0 0;
+    width: 40%;
+    text-align: left;
+}
+
+.item-launcher .dorodo-booster-warpper {
+    background: #f7fbff;
+}
+
+.item-launcher .dorodo-booster-warpper div {
+    text-align: left;
+}
+
+.item-launcher .dorodo-booster-warpper .dorodo-booster {
+    text-align: right;
+}
+
+.item-launcher .apps-work div {
+    float: right;
+    position: relative;
+    margin: 20px 0 0 0px;
+    width: 55%;
+    text-align: left;
+}
+
+.item-launcher .apps-work img {
+    margin-bottom: 60px;
+}
+
+.item-launcher .dorodo-booster-warpper .dorodo-booster div {
+    float: right;
+    margin: 20px 0 0 100px;
+    width: 50%;
+    text-align: left;
+}
+.item-launcher .dorodo-booster-warpper .dorodo-booster a{
+    color: #3c79e7;
+    text-decoration:underline;
+
+}
+.item-launcher .dorodo-booster-warpper .dorodo-booster a:hover{
+    color: #006699;
+
+}
+/*auncher-des*/
+.item-launcher .comment-des,
+.item-launcher .launcher-des {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 50px 0 90px;
+    /*max-width: 960px;*/
+    /*min-width: 480px;*/
+}
+
+.item-launcher .comment-des .row {
+    padding: 0 4% 0 0;
+}
+
+.item-launcher .launcher-des div {
+    display: table-cell;
+    padding: 0 4% 0 0;
+    width: 23.5%;
+    *display: inline-block;
+    *float: left;
+    *width: 22%;
+}
+
+.item-launcher .launcher-des div:last-of-type {
+    display: table-cell;
+    padding: 0 4% 0 0;
+    width: 23.5%;
+}
+
+.item-launcher .launcher-des div h4,
+.item-launcher .theme-and-wallpaper .theme-wallpaper-des div h4 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    display: block;
+    margin: 20px 0 10px;
+    padding: 0;
+}
+
+.item-launcher .launcher-des div p {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+/*.item-launcher .genius-des .genius-div .head {*/
+/*float: left;*/
+/*width: 25%;*/
+/*display: block;*/
+/*font-weight: 300;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*font-size: 22px;*/
+/*text-align: center;*/
+/*color: #999999;*/
+/*}*/
+.item-launcher .comment-user {
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #999999;
+}
+
+.item-launcher .comment-dialog {
+
+    margin-right: 15px;
+    padding: 10px 10px 10px 30px;
+    word-wrap: break-word;
+    min-height: 100px;
+    height: 100%;
+    /*width: 100%;*/
+    font-weight: 300;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    background-image: url(http://static.felinkapps.com/official-website/dev_20160216/images/genius/dialogbox.png);
+    background-repeat: repeat-y;
+}
+
+/*.item-launcher .launcher-des .dialog-inner{*/
+/*padding: 10px;*/
+/*}*/
+
+.about-main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1038px;
+    /*min-width: 480px;*/
+    padding: 90px 0;
+}
+
+.about-content-cent,
+.about-content {
+    padding: 0 22px 0 22px;
+}
+
+.about-content-cent h2,
+.about-content h2 {
+    font-size: 24px;
+    font-family:'Microsoft YaHei',微软雅黑, sans-serif;
+    color: #333333;
+
+}
+
+.about-content-cent h4 {
+    font-size: 20px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 39px;
+
+}
+
+.about-content-cent p {
+    font-size: 14px;
+    font-family:'Microsoft YaHei',微软雅黑,sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.about-content p {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 39px;
+
+}
+
+
+
+/* @Media */
+@media screen and (max-width: 600px) {
+
+
+    .item-launcher .media-comment {
+        padding: 45px;
+    }
+
+    .item-launcher .media-comment .media-icon {
+        display: block;
+        float: none;
+        /*width:80px;*/
+        /*height:46px;*/
+        margin-bottom: 10px;
+        margin: 0 6% 16px;
+    }
+
+    .item-launcher .media-comment .media-dialog {
+        margin-left: 0;
+    }
+
+    .item-launcher .media-comment .media-dialog .arrow {
+        left: 12%;
+        top: -20px;
+        border-color: transparent transparent #f7f7f7 transparent;
+    }
+
+    /*.item-launcher .smart-folders {*/
+    /*padding: 30px 0;*/
+    /*}*/
+    .item-launcher .mobile-light,
+    .item-launcher .apps-work,
+    .item-launcher .smart-folders,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster,
+    .item-launcher .mobile-search {
+        margin: 0 5%;
+        width: 90%;
+        padding: 30px 0;
+    }
+    .item-launcher .mobile-light div,
+    .item-launcher .apps-work div,
+    .item-launcher .smart-folders div,
+    .item-launcher .mobile-search div,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div {
+        margin: 0;
+        float: none;
+        width: 100%;
+    }
+    .item-launcher .mobile-light div h2,
+    .item-launcher .apps-work div h2,
+    .item-launcher .smart-folders div h2,
+    .item-launcher .mobile-search div h2,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .item-launcher .mobile-light div p,
+    .item-launcher .apps-work small,
+    .item-launcher .apps-work div p,
+    .item-launcher .smart-folders div p,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div p,
+    .item-launcher .mobile-search div p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .item-launcher .dorodo-booster-warpper p {
+        padding: 0;
+        line-height: 20px;
+        font-size: 15px;
+        color: #333333;
+    }
+
+    .item-launcher .smart-folders img {
+        width: 200px;
+        margin: 30px auto 0;
+        display: block;
+    }
+    .item-launcher .mobile-light img,
+    .item-launcher .apps-work img,
+    .item-launcher .mobile-search img,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster img {
+        width: 170px;
+        margin: 30px auto 0;
+        display: block;
+    }
+
+    .item-launcher .apps-work p {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 22px;
+        color: #333333;
+        font-weight: normal;
+    }
+
+    .item-launcher .apps-work p span {
+        font-size: 40px;
+    }
+
+    .item-launcher .apps-work p small {
+        font-size: 14px;
+        margin: 0 20px 0 0;
+    }
+
+    .item-browser .browser-incognito-mode img {
+        width: 230px;
+        margin: 30px auto 0;
+        display: block;
+    }
+
+    /*about*/
+    .about-main {
+        padding: 40px 0;
+    }
+
+    /*.about-content-cent,*/
+    /*.about-content {*/
+    /*margin-left: 26px;*/
+    /*}*/
+    /*launcher-des*/
+    .item-launcher .comment-des,
+    .item-launcher .launcher-des {
+        padding: 10px 0;
+    }
+
+    .item-launcher .launcher-des div,
+    .item-launcher .launcher-des div:last-of-type {
+        margin: 0 0 30px;
+        padding: 0;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .item-launcher .launcher-des div {
+        margin: 0 0 30px;
+    }
+
+    .item-launcher .launcher-des div:last-of-type {
+        margin: 0;
+    }
+
+    .item-launcher .launcher-des {
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .item-launcher .launcher-des div h4 {
+        margin: 10px 0;
+        padding: 0;
+        font-size: 17px;
+    }
+
+    .item-launcher .launcher-des div {
+        clear: left;
+    }
+
+    .item-launcher .launcher-des div img {
+        float: left;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+
+    .item-launcher .launcher-des div p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .item-launcher .comment-dialog {
+        line-height: 20px;
+        font-size: 13px;
+        margin-right: 0;
+    }
+    .item-launcher .comment-user {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 2px;
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 720px) {
+
+    .item-launcher .media-comment {
+        padding: 45px;
+    }
+
+    .item-launcher .media-comment .media-icon {
+        display: block;
+        float: none;
+        /*width:80px;*/
+        /*height:46px;*/
+        margin-bottom: 10px;
+        margin: 0 6% 16px;
+    }
+
+    .item-launcher .media-comment .media-dialog {
+        margin-left: 0;
+    }
+
+    .item-launcher .media-comment .media-dialog .arrow {
+        left: 12%;
+        top: -20px;
+        border-color: transparent transparent #f7f7f7 transparent;
+    }
+
+    /*.item-launcher .smart-folders {*/
+    /*padding: 40px 0;*/
+    /*}*/
+    .item-launcher .mobile-light,
+    .item-launcher .apps-work,
+    .item-launcher .smart-folders,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster,
+    .item-launcher .mobile-search {
+        margin: 0 5%;
+        padding: 40px 0;
+    }
+    .item-launcher .mobile-light div,
+    .item-launcher .apps-work div,
+    .item-launcher .smart-folders div,
+    .item-launcher .mobile-search div,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div {
+        margin: 0;
+        float: none;
+        width: 100%;
+    }
+    .item-launcher .mobile-light div p,
+    .item-launcher .apps-work small,
+    .item-launcher .apps-work div p,
+    .item-launcher .smart-folders div p,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div p,
+    .item-launcher .mobile-search div p {
+        line-height: 26px;
+        font-size: 13px;
+    }
+    .item-launcher .mobile-light div h2,
+    .item-launcher .apps-work div h2,
+    .item-launcher .smart-folders div h2,
+    .item-launcher .mobile-search div h2,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 36px;
+    }
+    .item-launcher .mobile-light img,
+    .item-launcher .apps-work img,
+    .item-launcher .smart-folders img,
+    .item-launcher .mobile-search img,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster img {
+        margin: 50px auto 0;
+        display: block;
+    }
+
+    .item-launcher .apps-work p {
+        padding: 10px 0 20px 0;
+        text-align: center;
+        font-size: 35px;
+        color: #333333;
+        font-weight: normal;
+    }
+
+    .item-launcher .apps-work p span {
+        font-size: 60px;
+    }
+
+    .item-launcher .apps-work p small {
+        font-size: 20px;
+        margin: 0 20px 0 0;
+    }
+
+    .item-launcher .comment-des,
+    .item-launcher .launcher-des {
+        padding: 15px 0;
+    }
+
+    .item-launcher .launcher-des div,
+    .item-launcher .launcher-des div:last-of-type {
+        margin: 0 0 20px;
+        padding: 0;
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .item-launcher .launcher-des div {
+        margin: 0 0 40px;
+    }
+
+    .item-launcher .launcher-des div:last-of-type {
+        margin: 0;
+    }
+
+    .item-launcher .launcher-des {
+        margin: 0 5%;
+    }
+
+    .item-launcher .launcher-des div {
+        clear: left;
+    }
+
+    .item-launcher .launcher-des div img {
+        float: left;
+        margin-right: 5%;
+        margin-bottom: 50px;
+        width: 50px;
+    }
+
+    .item-launcher .launcher-des div img {
+        margin-top: -7px;
+    }
+
+    .item-launcher .launcher-des div p {
+        line-height: 26px;
+        font-size: 13px;
+    }
+
+    .item-launcher .comment-dialog {
+        line-height: 26px;
+        font-size: 13px;
+    }
+    .item-launcher .comment-user {
+        padding-left: 30px;
+        padding-right: 2px;
+        font-size: 20px;
+    }
+    /*about*/
+    .about-main {
+        padding: 40px 0;
+    }
+
+    /*.about-content-cent,*/
+    /*.about-content {*/
+    /*margin-left: 20px;*/
+    /*}*/
+}
+
+@media (min-width: 721px) and (max-width: 959px) {
+    .item-launcher .media-comment {
+        padding: 45px;
+    }
+    .item-launcher .mobile-light,
+    .item-launcher .apps-work,
+    .item-launcher .smart-folders,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster,
+    .item-launcher .mobile-search {
+        margin: 0 5%;
+    }
+    .item-launcher .mobile-light div,
+    .item-launcher .apps-work div,
+    .item-launcher .smart-folders div,
+    .item-launcher .mobile-search div,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div {
+        margin: 0;
+        float: none;
+        width: 100%;
+    }
+    .item-launcher .mobile-light div h2,
+    .item-launcher .apps-work div h2,
+    .item-launcher .smart-folders div h2,
+    .item-launcher .mobile-search div h2,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster div h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .item-launcher .mobile-light img,
+    .item-launcher .apps-work img,
+    .item-launcher .smart-folders img,
+    .item-launcher .mobile-search img,
+    .item-launcher .dorodo-booster-warpper .dorodo-booster img {
+        margin: 50px auto 0;
+        display: block;
+    }
+
+    .item-launcher .apps-work p {
+        text-align: center;
+    }
+
+    .item-launcher .launcher-des div,
+    .item-launcher .launcher-des div:last-of-type {
+        position: relative;
+        margin: 0 0 80px;
+        padding: 0 5% 0 0;
+        float: left;
+        width: 45%;
+    }
+
+    .item-launcher .launcher-des {
+        margin: 0 0 0 14%;
+        /*padding: 0 8% 0 18%;*/
+    }
+
+    /*about*/
+    .about-main {
+        padding: 40px 0;
+    }
+    .item-launcher .comment-dialog {
+        line-height: 20px;
+        font-size: 13px;
+        margin-right: 0;
+    }
+    .item-launcher .comment-user {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 2px;
+        font-size: 13px;
+    }
+    /*.about-content-cent,*/
+    /*.about-content {*/
+    /*margin-left: 20px;*/
+    /*}*/
+}
+

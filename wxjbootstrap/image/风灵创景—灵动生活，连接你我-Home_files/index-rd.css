@@ -1,0 +1,432 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Montserrat:400,700|Questrial&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic);*/
+@import "google--felink-font.css";
+.qr_overlay,
+.step_overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 2700;
+    opacity: 0;
+    background-color: rgba(0,0,0,.8);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.qr_show_layer.qr_overlay,
+.step_show_layer.step_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* QR */
+.qr_modal,
+.step_modal {
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    z-index: 2701;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.qr_modal {
+    margin-top: -170px;
+    margin-left: -156.5px;
+    /*margin-left: -112px;*/
+}
+
+.step_modal {
+    margin-top: -200px;
+    margin-left: -265px;
+}
+
+.qr_show,
+.step_show {
+    visibility: visible;
+}
+
+.qr_effect.qr_modal,
+.step_effect.step_modal {
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -ms-perspective: 1300px;
+    -o-perspective: 1300px;
+    perspective: 1300px;
+}
+
+.qr_effect.qr_modal,
+.step_effect.step_modal {
+    -webkit-perspective: 1300px;
+    -moz-perspective: 1300px;
+    -ms-perspective: 1300px;
+    -o-perspective: 1300px;
+    perspective: 1300px;
+}
+
+.qr_effect .qr_content,
+.step_effect .step_content {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(-70deg);
+    -moz-transform: rotateX(-70deg);
+    -ms-transform: rotateX(-70deg);
+    -o-transform: rotateX(-70deg);
+    transform: rotateX(-70deg);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    opacity: 0;
+}
+
+.qr_show.qr_effect .qr_content,
+.step_show.step_effect .step_content {
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+}
+
+.qr_layer,
+.wifi_step {
+    background: white;
+    z-index: 1100;
+}
+
+.qr_layer {
+    padding: 0 30px 25px;
+}
+
+.wifi_step {
+    padding: 0 30px 25px 300px;
+}
+
+.qr_layer .close_qr,
+.wifi_step .close_step {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 30px;
+}
+
+.qr_layer .close_qr a,
+.wifi_step .close_step a {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url("http://img.t.felink.com/felinkcn/201604/images/Home/close_qr.png") no-repeat center center;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+
+.qr_layer .close_qr a:hover,
+.wifi_step .close_step a:hover {
+    cursor: pointer;
+}
+
+.qr_layer .qr_text,
+.wifi_step .step_text {
+    font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+}
+
+.qr_layer .qr_text {
+    padding-top: 10px;
+}
+.download-learn-more {
+    padding: 10px;
+    display: inline-block;
+}
+.qr_layer .qr_pic img{
+    margin: auto; width:250px;
+}
+.download-learn-more a.btn-download-apus,
+.download-learn-more a.btn-qr-code,
+.download-learn-more a.btn-learn-more,
+.download-learn-more a.btn-learn-launcher,
+.download-learn-more a.btn-learn-shine,
+.download-learn-more a.btn-learn-pixelphone,
+.download-learn-more a.btn-download-apus-zh {
+    float: left;
+    display: block;
+}
+
+.download-learn-more a.btn-download-apus {
+    margin: 0 0 0 13px;
+    width: 230px;
+    height: 55px;
+    border: solid 1px #fff;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    background: url('http://img.t.felink.com/felinkcn/201604/images/genius/googleplay_drop.png') no-repeat 28px 17px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.download-learn-more a.btn-download-apus:hover {
+    background: url('http://img.t.felink.com/felinkcn/201604/images/genius/googleplay_drop.png') no-repeat 28px 17px rgba(255,255,255,.2);
+}
+
+.download-learn-more a.btn-download-apus-zh {
+    margin-left: 10px;
+    padding: 0 30px;
+    /*padding: 0 50px;*/
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    background: #6b63e1;
+    color: #fff;
+}
+
+.download-learn-more a.btn-download-apus-zh:hover {
+    background: #7a73e4;
+}
+
+.download-learn-more a.btn-qr-code {
+    margin: 0;
+    width: 50px;
+    height: 55px;
+    border: solid 1px #fff;
+    border-left: none;
+    border-radius: 0 2px 2px 0;
+    background: url('http://img.t.felink.com/felinkcn/201604/images/genius/qr_drop.png') no-repeat center center;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.download-learn-more a.btn-qr-code:hover {
+    background: url('http://img.t.felink.com/felinkcn/201604/images/genius/qr_drop.png') no-repeat center center rgba(255,255,255,.2);
+}
+.download-learn-more a.btn-learn-launcher {
+    margin: 0;
+    padding: 0 30px;
+    width: 267px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 2px;
+    background: #FFF;
+    font-family: 'Roboto','Microsoft YaHei', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #5b98d4;
+}
+.download-learn-more a.btn-learn-shine{
+    margin: 0;
+    padding: 0 30px;
+    width: 267px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 2px;
+    background: #fec800;
+    font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #333333;
+}
+.download-learn-more a.btn-learn-pixelphone {
+    margin: 0;
+    padding: 0 30px;
+    width: 267px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 2px;
+    background: #ffffff;
+    font-family: 'Roboto','Microsoft YaHei', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #3fcc8f;
+}
+.download-learn-more a.btn-learn-more {
+    margin: 0;
+    padding: 0 30px;
+    width: 267px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 2px;
+    background: #107ce6;
+    font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+.download-learn-more a.btn-learn-launcher:hover{
+    background: #FFF; color:#9869de;
+}
+.download-learn-more a.btn-learn-shine:hover{
+    background: #e1b208;
+}
+.download-learn-more a.btn-learn-pixelphone:hover{
+    background: #cfffea;
+}
+.download-learn-more a.btn-learn-more:hover {
+    background: #0d72da;
+}
+.download-learn-more a.btn-learn-launcher img,
+.download-learn-more a.btn-learn-shine img,
+.download-learn-more a.btn-learn-pixelphone img,
+.download-learn-more a.btn-learn-more img {
+    margin-right: 15px;
+    margin-top: 2px;
+    vertical-align: text-top;
+}
+.km-layer {
+    padding: 20px 0 0;
+}
+.km-layer a.know-more {
+    padding-right: 15px;
+    background: url('http://icon.apuslauncher.com/activities/bbce1e77d244e679f947bf996b7b08ff.png') no-repeat right 10px;
+    background-size: 6px auto;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto','Microsoft YaHei',微软雅黑, sans-serif;
+    font-weight: 200;
+}
+
+.km-layer a.know-more:hover {
+    opacity: .8;
+}
+/* @Media */
+@media screen and (max-width: 600px) {
+    .download-learn-more {
+        width: 220px;
+        padding: 0 10px 10px 10px;
+    }
+
+    .download-learn-more a.btn-download-apus {
+        margin: 10px 0 0;
+        float: left;
+        display: block;
+        width: 196px;
+        height: 38px;
+        border: solid 1px #fff;
+        border-radius: 2px;
+        background-size: 135px auto;
+        background-position: center 14px;
+    }
+
+    .download-learn-more a.btn-download-apus:hover {
+        background: url('http://img.t.felink.com/felinkcn/201604/images/genius/googleplay_drop.png') no-repeat 18px 14px rgba(255,255,255,.2);
+        background-size: 135px auto;
+        background-position: center 14px;
+    }
+
+
+    .download-learn-more a.btn-learn-launcher img,
+    .download-learn-more a.btn-learn-shine img,
+    .download-learn-more a.btn-learn-more img {
+        margin-right: 13px;
+        margin-top: auto;
+        vertical-align: text-top;
+    }
+
+    .download-learn-more a.btn-qr-code {
+        float: left;
+        display: none;
+        width: 40px;
+        height: 40px;
+    }
+
+    .download-learn-more a.btn-learn-launcher,
+    .download-learn-more a.btn-learn-shine,
+    .download-learn-more a.btn-learn-pixelphone,
+    .download-learn-more a.btn-learn-more {
+        display: block;
+        width: 196px;
+        height: 38px;
+        line-height: 40px;
+        padding: 0;
+        margin: 10px 0 0 0px;
+        font-size: 15px;
+    }
+
+    .download-learn-more a.btn-download-apus-zh {
+        display: block;
+        width: 200px;
+        height: 38px;
+        line-height: 40px;
+        padding: 0;
+        margin: 10px 0 0 0px;
+        font-size: 15px;
+    }
+    .km-layer {
+        padding: 15px 0 0;
+    }
+    .km-layer a.know-more {
+        padding-right: 10px;
+        background: url('http://icon.apuslauncher.com/activities/bbce1e77d244e679f947bf996b7b08ff.png') no-repeat right 5px;
+        background-size: 5px auto;
+        font-size: 14px;
+    }
+    .qr_modal {
+        margin-top: -170px;
+
+        margin-left: -112px;
+    }
+}
+@media (min-width: 601px) and (max-width: 720px) {
+    .download-learn-more {
+        width: 280px;
+    }
+
+    .download-learn-more a.btn-download-apus {
+        margin: 10px 0 0;
+        width: 276px;
+        border: solid 1px #fff;
+        border-radius: 2px;
+        background-position: center 17px;
+    }
+
+    .download-learn-more a.btn-download-apus:hover {
+        background: url('http://img.t.felink.com/felinkcn/201604/images/genius/googleplay_drop.png') no-repeat rgba(255,255,255,.2);
+        background-position: center 17px;
+    }
+
+    .download-learn-more a.btn-qr-code {
+        display: none;
+    }
+
+    .download-learn-more a.btn-learn-launcher,
+    .download-learn-more a.btn-learn-shine,
+    .download-learn-more a.btn-learn-pixelphone,
+    .download-learn-more a.btn-learn-more,
+    .download-learn-more a.btn-download-apus-zh {
+        display: block;
+        width: 278px;
+        padding: 0;
+        margin: 10px 0 0 0px;
+    }
+
+
+    .qr_modal {
+        margin-top: -170px;
+
+        margin-left: -112px;
+    }
+}
